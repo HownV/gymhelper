@@ -12,6 +12,13 @@ namespace MvcAuth.Models
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
+
+        public string FullName { get; set; }
+        public string Sex { get; set; }
+        //public string Photo { get; set; }
+        public string Country { get; set; }
+        public string Company { get; set; }
+        public string AboutMe { get; set; }
     }
 
     public class ManageLoginsViewModel

@@ -174,15 +174,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201601011305203_InitialCreate.cs" />
-    <Compile Include="Migrations\201601011305203_InitialCreate.Designer.cs">
-      <DependentUpon>201601011305203_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201601011443026_Init.cs" />
-    <Compile Include="Migrations\201601011443026_Init.Designer.cs">
-      <DependentUpon>201601011443026_Init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -256,14 +247,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201601011305203_InitialCreate.resx">
-      <DependentUpon>201601011305203_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201601011443026_Init.resx">
-      <DependentUpon>201601011443026_Init.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
