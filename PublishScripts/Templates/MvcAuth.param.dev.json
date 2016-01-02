@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "GymPlatform"
+  },
+  "hostingPlanName": {
+    "value": "ServicePlan"
+  },
+  "siteLocation": {
+    "value": "East US"
+  },
+  "sku": {
+    "value": "Shared"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "gym"
+  },
+  "serverLocation": {
+    "value": "West Europe"
+  },
+  "administratorLogin": {
+    "value": "maintrainer"
+  },
+  "administratorLoginPassword": {
+    "value": "Trainer131"
+  },
+  "databaseName": {
+    "value": "GymPlatform_db"
+  }
+}
